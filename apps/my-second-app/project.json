@@ -4,7 +4,7 @@
   "projectType": "application",
   "prefix": "my-monorepo",
   "sourceRoot": "apps/my-second-app/src",
-  "tags": [],
+  "tags": ["scope:my-second-app"],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
