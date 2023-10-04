@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { HeaderComponent } from "@my-monorepo/ui";
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent],
+  imports: [ HeaderComponent ],
   selector: 'my-monorepo-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: [ './app.component.scss' ],
 })
 export class AppComponent {
   title = 'my-first-app';
